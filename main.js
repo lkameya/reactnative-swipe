@@ -12,7 +12,7 @@ const DATA = [
   { id: 5, text: 'Card #5', uri: 'http://imgs.abduzeedo.com/files/paul0v2/unsplash/unsplash-04.jpg' },
   { id: 6, text: 'Card #6', uri: 'http://www.fluxdigital.co/wp-content/uploads/2015/04/Unsplash.jpg' },
   { id: 7, text: 'Card #7', uri: 'http://imgs.abduzeedo.com/files/paul0v2/unsplash/unsplash-09.jpg' },
-  { id: 8, text: 'Card #8', uri: 'http://imgs.abduzeedo.com/files/paul0v2/unsplash/unsplash-01.jpg' },
+  { id: 8, text: 'Card #8', uri: 'http://imgs.abduzeedo.com/files/paul0v2/unsplash/unsplash-01.jpg' }
 ];
 
 class App extends React.Component {
@@ -24,7 +24,7 @@ class App extends React.Component {
         image={{ uri: item.uri }}
       >
         <Text style={{ marginBottom: 10 }}>
-          I can customize the Card further
+          I can customize the Card furthers
         </Text>
         <Button
           icon={{ name: 'code' }}
